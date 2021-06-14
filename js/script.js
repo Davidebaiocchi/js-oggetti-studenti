@@ -48,9 +48,7 @@ console.log(arrayStudenti);
 
 // creo un ciclo e stampo tutti gli oggetti e le relative info
 for(i = 0; i < arrayStudenti.length; i++){
-    console.log(arrayStudenti[i].nome);
-    console.log(arrayStudenti[i].cognome);
-    console.log(arrayStudenti[i].età);
+    console.log(arrayStudenti[i].nome + " " + arrayStudenti[i].cognome);
 }
 
 
